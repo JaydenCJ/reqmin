@@ -1,0 +1,16 @@
+curl 'http://127.0.0.1:8641/api/orders?user=42&session=9f3ab1&tab=recent&_=1720780000' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Authorization: Bearer demo-token' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: sid=9f3ab1cafe; theme=dark; consent=yes; _ga=GA1.1.1111' \
+  -H 'DNT: 1' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://127.0.0.1:8641/dashboard' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -A 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36' \
+  --compressed
